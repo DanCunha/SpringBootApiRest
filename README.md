@@ -13,3 +13,17 @@ http://localhost:8080/topicos/
 
 Notes:
 - Utilizar o Cacheable com moderação.
+
+
+Auth:
+
+Post:
+http://localhost:8080/auth
+{
+	"email":"aluno@gmail.com",
+	"senha":"123456"
+}
+
+Monitoramento:
+
+http://localhost:8080/actuator
